@@ -6,7 +6,7 @@ All classes includes description at the top about their role in the application/
 #### List of Endpoint Urls
 ######1.  Get Wine Details
 
-__URL__: `http://vintrace/api/v1/wine/88`
+_URL_: **GET** `http://vintrace/api/v1/wine/88`
 
 ```java
     @GetMapping("/{wineId}")
@@ -17,7 +17,7 @@ __URL__: `http://vintrace/api/v1/wine/88`
 
 ######2.  Get Wines by Product State
 
-__URL__: `http://vintrace/api/v1/wine/productstate/44`
+_URL_: **GET** `http://vintrace/api/v1/wine/productstate/44`
 
 ```java
    @GetMapping("/productstate/{stateId}")
@@ -28,7 +28,7 @@ __URL__: `http://vintrace/api/v1/wine/productstate/44`
 
 ######3.  Get Wines by Owner
 
-__URL__: `http://vintrace/api/v1/wine/owner/66`
+_URL_: **GET**`http://vintrace/api/v1/wine/owner/66`
 
 ```java
        @GetMapping("/owner/{ownerId}")
@@ -38,7 +38,7 @@ __URL__: `http://vintrace/api/v1/wine/owner/66`
 ```
 ######4.  Get breakdown
 
-__URL__: `http://vintrace/api/v1/wine/breakdown/year`
+_URL_: **GET** `http://vintrace/api/v1/wine/breakdown/year`
 
 _Note:_ year in above url is a parameter that can be year/variety/region/year_variety
 
@@ -192,7 +192,7 @@ __Example 3:__ Get Region Breakdown
 ```json
 {
   "results" : [ [ {
-    "name" : "Region",
+    "name" : "egion",
     "value" : "Yarra Valley"
   }, {
     "name" : "Percentage",
