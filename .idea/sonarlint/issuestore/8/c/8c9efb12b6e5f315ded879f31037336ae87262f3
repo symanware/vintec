@@ -1,10 +1,7 @@
 
-wsquid:S2293@"YReplace the type specification in this constructor call with the diamond operator ("<>").(áúËØ8Œ¸óË,
-\
-squid:S106‡"9Replace this use of System.out or System.err by a logger.(¼ãçùÿÿÿÿ8¸š´ëÊ,
-|squid:S2293j"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ö¸û¿úÿÿÿÿ8Œ¸óË,
-|squid:S2293T"YReplace the type specification in this constructor call with the diamond operator ("<>").(éïßùÿÿÿÿ8Œ¸óË,
 isquid:S1192$"KDefine a constant instead of duplicating this literal "Pinot Noir" 4 times.(ÎİÜ³8±Ô¿éÊ,
 W
 squid:S106‰"9Replace this use of System.out or System.err by a logger.(³ÒÌ8Œ¸óË,
+\
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(¼ãçùÿÿÿÿ8¸š´ëÊ,
 ksquid:S1192%"HDefine a constant instead of duplicating this literal "Macedon" 3 times.(íÜìÚüÿÿÿÿ8±Ô¿éÊ,
