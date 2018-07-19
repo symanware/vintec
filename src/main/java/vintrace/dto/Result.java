@@ -3,6 +3,9 @@ package vintrace.dto;
 import java.util.LinkedList;
 import java.util.List;
 
+/**
+ * DTO to hold result for breakdown
+ */
 public class Result {
     private List<List<Property>> results;
 

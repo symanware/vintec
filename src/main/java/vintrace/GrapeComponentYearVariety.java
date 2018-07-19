@@ -1,11 +1,30 @@
 package vintrace;
 
+/**
+ *
+ */
 public class GrapeComponentYearVariety implements Comparable {
     private int year;
     private String variety;
 
     public GrapeComponentYearVariety(int year, String variety) {
         this.year = year;
+        this.variety = variety;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
+
+    public String getVariety() {
+        return variety;
+    }
+
+    public void setVariety(String variety) {
         this.variety = variety;
     }
 
@@ -25,22 +44,6 @@ public class GrapeComponentYearVariety implements Comparable {
         int result = year;
         result = 31 * result + (variety != null ? variety.hashCode() : 0);
         return result;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
-
-    public String getVariety() {
-        return variety;
-    }
-
-    public void setVariety(String variety) {
-        this.variety = variety;
     }
 
     @Override

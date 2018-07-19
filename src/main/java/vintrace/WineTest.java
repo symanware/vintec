@@ -1,9 +1,6 @@
 package vintrace;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import vintrace.adapter.WineDetailAdapter;
 import vintrace.converter.DtoJsonConverter;
-import vintrace.dto.WineDetail;
 import vintrace.helper.ValueComparator;
 
 import java.util.*;
@@ -48,15 +45,8 @@ public class WineTest {
         printVarietyBreakdown(w);
         printRegionBreakdown(w);
         printYearAndVarietyBreakdown(w);
-
-        printWineDetailsJson(w);
     }
 
-    private static void printWineDetailsJson(Wine w) {
-        //transform to DTO
-        WineDetail wineDetail = WineDetailAdapter.from(w);
-        DtoJsonConverter.convertAndPrintObject(wineDetail);
-    }
 
     private static void printVarietyBreakdown(Wine w) {
         //Calculate sum of percentage for each variety

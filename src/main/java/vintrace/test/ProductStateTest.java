@@ -6,6 +6,9 @@ import vintrace.dto.WineDetail;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Utility class to just generate sample Json
+ */
 public class ProductStateTest {
 
     public static void main(String[] args) {

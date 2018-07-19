@@ -1,5 +1,8 @@
 package vintrace.dto;
 
+/**
+ * contains a key/value pair in breakdown result
+ */
 public class Property {
     private String name;
     private String value;
