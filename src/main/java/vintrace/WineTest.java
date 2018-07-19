@@ -61,7 +61,7 @@ public class WineTest {
             }
         }
         //Sort the result map in the descending order of percentage
-        Comparator<String> comparator = new ValueComparator<String, Double>(varietyWisePercentage);
+        Comparator<String> comparator = new ValueComparator<>(varietyWisePercentage);
         TreeMap<String, Double> sortedMap = new TreeMap<>(comparator);
         sortedMap.putAll(varietyWisePercentage);
         printResult("Variety Breakdown", sortedMap);
@@ -81,7 +81,7 @@ public class WineTest {
             }
         }
         //Sort the result map in the descending order of percentage
-        Comparator<Integer> comparator = new ValueComparator<Integer, Double>(yearWisePercentage);
+        Comparator<Integer> comparator = new ValueComparator<>(yearWisePercentage);
         TreeMap<Integer, Double> sortedMap = new TreeMap<>(comparator);
         sortedMap.putAll(yearWisePercentage);
         printResult("Year Breakdown", sortedMap);
@@ -103,7 +103,7 @@ public class WineTest {
             }
         }
         //Sort the result map in the descending order of percentage
-        Comparator<String> comparator = new ValueComparator<String, Double>(regionWisePercentage);
+        Comparator<String> comparator = new ValueComparator<>(regionWisePercentage);
         TreeMap<String, Double> sortedMap = new TreeMap<>(comparator);
         sortedMap.putAll(regionWisePercentage);
         printResult("Region Breakdown", sortedMap);

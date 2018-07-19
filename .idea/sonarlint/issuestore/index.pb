@@ -7,20 +7,14 @@ P
  src/main/java/vintrace/Wine.java,f\6\f65d12f7b917b11f75534581db377f8b753d1605
 P
  src/main/java/vintrace/Tank.java,e\1\e1ccdbe88f8bc90e7e4acb2bd871cc1444d801db
-P
- src/main/java/vintrace/Test.java,9\e\9e6defe90ac941060e2bcf243fe99e3e55b7d133
 e
 5src/main/java/vintrace/GrapeComponentYearVariety.java,2\0\203d19ebec3458970b1404ee14a14ded4a6cbed8
 Q
 !src/main/java/vintrace/Owner.java,d\a\da5d3d4605f088de62443baaa7d113260acd61f0
 X
 (src/main/java/vintrace/ProductState.java,9\2\92423d49d48e6e1824b399ebd7ca266bf7a3569e
-e
-5src/main/java/vintrace/controller/WineController.java,4\a\4a05d4f71f37334e1fd325b0cc5c88b12c2b769e
 Z
 *src/main/java/vintrace/GrapeComponent.java,6\6\66fc63e542f5ca9c1be5b4e790c1390cb605fd91
-a
-1src/main/java/vintrace/controller/Controller.java,9\0\9037ce9b90c804d4b7b0d1e67e0962b04798ebd1
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 f
@@ -41,3 +35,5 @@ Z
 *src/main/java/vintrace/test/OwnerTest.java,0\d\0d0befca150bc79398aba864684dc2bbd030d731
 a
 1src/main/java/vintrace/Readme/Exercise2_Readme.md,c\5\c5437c74d1cdb9097ca9053e2ab81866cb4dd159
+_
+/src/main/java/vintrace/test/WineDetailTest.java,8\e\8e2cdbac0cb725d8d6b2b54dbd6cee775bdc07cb

@@ -10,7 +10,7 @@ public class Wine implements Serializable {
 	
 	// this is a simplified model for demonstration purposes
 
-	private Set<GrapeComponent> components = new HashSet<GrapeComponent>();
+	private Set<GrapeComponent> components = new HashSet<>();
 	
 	private int id;
 	private String lotCode;

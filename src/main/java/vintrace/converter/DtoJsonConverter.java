@@ -17,7 +17,7 @@ import java.util.TreeMap;
 
 public class DtoJsonConverter {
 
-    public static ObjectMapper objectMapper = new ObjectMapper();
+    public static final ObjectMapper objectMapper = new ObjectMapper();
 
     static {
         objectMapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
@@ -47,7 +47,7 @@ public class DtoJsonConverter {
         return convertAndPrintObject(result);
     }
 
-    public static String convertYearAndVarietyBreakdownToJson(TreeMap<GrapeComponentYearVariety, Double> yearAndVarietyBreakdown) {
+    public static String convertYearAndVarietyBreakdownToJson(Map<GrapeComponentYearVariety, Double> yearAndVarietyBreakdown) {
         Result result = new Result();
         for (Map.Entry<GrapeComponentYearVariety, Double> entry : yearAndVarietyBreakdown.entrySet()) {
             List<Property> row = result.createRow();
