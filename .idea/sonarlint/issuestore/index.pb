@@ -1,0 +1,43 @@
+
+X
+(src/main/java/vintrace/dto/Property.java,c\b\cb9937e80f5816e2b660cfb9c398e7aff5f79e02
+V
+&src/main/java/vintrace/dto/Result.java,7\5\75a21caa5f0625329a74b159e7871852edfef382
+P
+ src/main/java/vintrace/Wine.java,f\6\f65d12f7b917b11f75534581db377f8b753d1605
+P
+ src/main/java/vintrace/Tank.java,e\1\e1ccdbe88f8bc90e7e4acb2bd871cc1444d801db
+P
+ src/main/java/vintrace/Test.java,9\e\9e6defe90ac941060e2bcf243fe99e3e55b7d133
+e
+5src/main/java/vintrace/GrapeComponentYearVariety.java,2\0\203d19ebec3458970b1404ee14a14ded4a6cbed8
+Q
+!src/main/java/vintrace/Owner.java,d\a\da5d3d4605f088de62443baaa7d113260acd61f0
+X
+(src/main/java/vintrace/ProductState.java,9\2\92423d49d48e6e1824b399ebd7ca266bf7a3569e
+e
+5src/main/java/vintrace/controller/WineController.java,4\a\4a05d4f71f37334e1fd325b0cc5c88b12c2b769e
+Z
+*src/main/java/vintrace/GrapeComponent.java,6\6\66fc63e542f5ca9c1be5b4e790c1390cb605fd91
+a
+1src/main/java/vintrace/controller/Controller.java,9\0\9037ce9b90c804d4b7b0d1e67e0962b04798ebd1
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+f
+6src/main/java/vintrace/converter/DtoJsonConverter.java,d\1\d1ac8e6ec0ac629d327ab97419a0f8e871c45a09
+e
+5src/main/java/vintrace/adapter/WineDetailAdapter.java,b\0\b06cafc374fd41fddc8c32f6b840e3d84701f0e2
+Z
+*src/main/java/vintrace/dto/WineDetail.java,a\0\a017ce274e9ff3156a8ce0406fc8faf2b4644304
+T
+$src/main/java/vintrace/WineTest.java,8\c\8c9efb12b6e5f315ded879f31037336ae87262f3
+b
+2src/main/java/vintrace/helper/ValueComparator.java,5\d\5d67c76a19ef1741894ac0508cd4915c0683ff30
+a
+1src/main/java/vintrace/test/ProductStateTest.java,a\9\a9a6aca39919bdbb4b4cf99d9c89578f12d91f90
+a
+1src/main/java/vintrace/Readme/Exercise1_Readme.md,0\1\011c6745b5953c935ccf1611470423e6aef5e303
+Z
+*src/main/java/vintrace/test/OwnerTest.java,0\d\0d0befca150bc79398aba864684dc2bbd030d731
+a
+1src/main/java/vintrace/Readme/Exercise2_Readme.md,c\5\c5437c74d1cdb9097ca9053e2ab81866cb4dd159
