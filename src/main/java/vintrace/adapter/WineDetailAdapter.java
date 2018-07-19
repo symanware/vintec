@@ -3,6 +3,9 @@ package vintrace.adapter;
 import vintrace.Wine;
 import vintrace.dto.WineDetail;
 
+/**
+ * Transforms Wine to WineDetails
+ */
 public class WineDetailAdapter {
     public static WineDetail from(Wine wine) {
         WineDetail wineDetail = new WineDetail();
@@ -14,5 +17,4 @@ public class WineDetailAdapter {
         wineDetail.setOwner(wine.getOwner());
         return wineDetail;
     }
-
 }
